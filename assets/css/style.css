@@ -39,9 +39,20 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
-
 }
 
+#menu {
+    letter-spacing: 4px;
+    font-size: 110%;
+    text-decoration: none;
+}
+#menu > li {
+    margin-bottom: 1em;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
+
+}
 /* Main */
 main {
     background-color: lightblue;
