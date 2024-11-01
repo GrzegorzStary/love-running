@@ -31,6 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    list-style-type: none;
 }
 
 header a {
@@ -42,6 +43,9 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+}
+li {
+    list-style-type: none;
 }
 
 #menu {
@@ -86,4 +90,23 @@ main {
 /* Footer */
 footer {
     background-color: orange;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #manu > li {
+        padding-left: 20px;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
 }
