@@ -80,7 +80,7 @@ main {
     background-color: lightblue;
     /* Take up any surplus space pushing fotter down to the bottom of the page */
     flex: 1 0 auto;
-
+    margin-top: 47px;
 }
 
 /* Footer */
